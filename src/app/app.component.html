@@ -1,8 +1,9 @@
 <swiper [config]="config" [grabCursor]="true" class="mySwiper">
   <ng-container *ngFor="let fibo of fibonacciRange">
     <ng-template swiperSlide>
-      <img src="../assets/images/aiawhite-logo.png" width="48px" class="aialogo" />
+      <img src="../assets/images/aiawhite-logo.png" width="32px" class="aialogo" />
       <span style="font-size: 8em">{{ fibo }}</span>
     </ng-template>
   </ng-container>
 </swiper>
+<span class="description">Cyberjaya Technology Center</span>
