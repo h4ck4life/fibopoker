@@ -25,6 +25,11 @@ body {
   justify-content: center;
 }
 
+.blurry-text {
+   text-shadow: 0 0 32px white;
+   color: transparent;
+}
+
 .swiper {
   width: 260px;
   height: 380px;

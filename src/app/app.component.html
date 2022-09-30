@@ -2,7 +2,7 @@
   <ng-container *ngFor="let fibo of fibonacciRange">
     <ng-template swiperSlide>
       <img src="../assets/images/aiawhite-logo.png" width="32px" class="aialogo" />
-      <span style="font-size: 8em">{{ fibo }}</span>
+      <span (click)="toggleBlur()" [class.blurry-text]="isNumberBlur" class="blurry-text" style="font-size: 8em">{{ fibo }}</span>
     </ng-template>
   </ng-container>
 </swiper>
