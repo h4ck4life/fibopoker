@@ -37,7 +37,6 @@ export class AppComponent {
   }
 
   toggleCardType(cardType: string) {
-    console.log(cardType);
     switch (cardType) {
       case CardType.Fibonacci: {
         this.fibonacciRange = [1, 2, 3, 5, 8, 13, 21, '?', '☕'];
