@@ -15,7 +15,7 @@ SwiperCore.use([EffectCards]);
 export class AppComponent {
   title = 'Fibopoker';
   isNumberBlur = false;
-  fibonacciRange = [1, 2, 3, 5, 8, 13, '☕'];
+  fibonacciRange = [1, 2, 3, 5, 8, 13, 21, '?', '☕'];
 
   config: SwiperOptions = {
     loop: true,
