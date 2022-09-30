@@ -28,7 +28,7 @@ body {
 .cardtype-container {
   display: flex;
   margin-top: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
 }
 
@@ -36,6 +36,7 @@ body {
   font-weight: bold;
   font-size: 1.2em;
   cursor: pointer;
+  padding: 5px;
 }
 
 .blurry-text {
