@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 // import Swiper core and required modules
-import SwiperCore, { EffectCards, SwiperOptions } from "swiper";
+import SwiperCore, { EffectCards, SwiperOptions } from 'swiper';
 
 // install Swiper modules
 SwiperCore.use([EffectCards]);
@@ -14,10 +14,19 @@ SwiperCore.use([EffectCards]);
 })
 export class AppComponent {
   title = 'Fibopoker';
+  isNumberBlur = false;
   fibonacciRange = [1, 2, 3, 5, 8, 13, '☕'];
 
   config: SwiperOptions = {
     loop: true,
-    effect: 'cards'
+    effect: 'cards',
   };
+
+  toggleBlur() {
+    if (this.isNumberBlur) {
+      this.isNumberBlur = false;
+    } else {
+      this.isNumberBlur = true;
+    }
+  }
 }
