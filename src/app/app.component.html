@@ -6,4 +6,10 @@
     </ng-template>
   </ng-container>
 </swiper>
-<span class="description">Cyberjaya Technology Center</span>
+<div class="description">
+  <!-- <span style="font-size: 0.7em;">Cyberjaya Technology Center</span> -->
+  <div class="cardtype-container">
+    <span (click)="toggleCardType('Fibonacci')">Fibonacci</span>
+    <span (click)="toggleCardType('ShirtSize')">T-Shirt</span>
+  </div>
+</div>
