@@ -23,6 +23,8 @@ export class AppComponent {
   isNumberBlur = false;
   fibonacciRange: any = [1, 2, 3, 5, 8, 13, 21, '?', '☕'];
 
+  cardType = CardType;
+
   config: SwiperOptions = {
     loop: true,
     effect: 'cards',
