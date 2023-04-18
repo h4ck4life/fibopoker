@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "local": "ng serve --port 3000 --public-host localhost.filavents.com"
   },
   "private": true,
   "dependencies": {
